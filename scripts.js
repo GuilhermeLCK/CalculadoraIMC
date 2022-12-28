@@ -9,7 +9,7 @@ function calcularImc() {
     alert("[ERRO!] PREENCHA TODOS OS CAMPOS");
   } else {
     if (imc >= 0 && imc < 18.5) {
-      img.src = "img/magro.png";
+      img.src = "magro.png";
 
       document.body.style.background = "#5bd9ab";
     } else if (imc >= 18.5 && imc < 24.9) {
